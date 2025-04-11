@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Membaca dataset
-df_penjualan = pd.read_csv('data_penjualan.csv')
+df_penjualan = pd.read_csv('data_penjualan.csv') 
 
 # Statistik deskriptif
 print("Statistik Deskriptif:\n", df_penjualan.describe())
